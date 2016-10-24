@@ -1,0 +1,37 @@
+sysbench 1.0:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 128
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+OLTP test statistics:
+    queries performed:
+        read:                            19936692
+        write:                           0
+        other:                           0
+        total:                           19936692
+    transactions:                        0      (0.00 per sec.)
+    read/write requests:                 19936692 (332054.24 per sec.)
+    other operations:                    0      (0.00 per sec.)
+    ignored errors:                      0      (0.00 per sec.)
+    reconnects:                          0      (0.00 per sec.)
+
+General statistics:
+    total time:                          60.0405s
+    total number of events:              369198
+    total time taken by event execution: 7682.3282s
+    response time:
+         min:                                  8.12ms
+         avg:                                 20.81ms
+         max:                                385.33ms
+         approx.  95 percentile:              32.04ms
+
+Threads fairness:
+    events (avg/stddev):           2884.3594/145.25
+    execution time (avg/stddev):   60.0182/0.01
+

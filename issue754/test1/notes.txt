@@ -1,0 +1,2 @@
+CPU: 1x Intel(R) Xeon(R) CPU E3-1230 v5 @ 3.40GHz , 4 physcal cores , 8 virtual cores
+Net: 1 Gbps
