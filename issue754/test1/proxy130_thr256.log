@@ -11,27 +11,27 @@ Threads started!
 
 OLTP test statistics:
     queries performed:
-        read:                            12462714
+        read:                            6435936
         write:                           0
         other:                           0
-        total:                           12462714
+        total:                           6435936
     transactions:                        0      (0.00 per sec.)
-    read/write requests:                 12462714 (207586.18 per sec.)
+    read/write requests:                 6435936 (107143.15 per sec.)
     other operations:                    0      (0.00 per sec.)
     ignored errors:                      0      (0.00 per sec.)
     reconnects:                          0      (0.00 per sec.)
 
 General statistics:
-    total time:                          60.0363s
-    total number of events:              230791
-    total time taken by event execution: 15365.0951s
+    total time:                          60.0686s
+    total number of events:              119184
+    total time taken by event execution: 15371.1302s
     response time:
-         min:                                 17.44ms
-         avg:                                 66.58ms
-         max:                                388.32ms
-         approx.  95 percentile:             120.83ms
+         min:                                  8.63ms
+         avg:                                128.97ms
+         max:                                553.67ms
+         approx.  95 percentile:             225.88ms
 
 Threads fairness:
-    events (avg/stddev):           901.5273/41.67
-    execution time (avg/stddev):   60.0199/0.01
+    events (avg/stddev):           465.5625/122.97
+    execution time (avg/stddev):   60.0435/0.02
 
